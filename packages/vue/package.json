@@ -1,5 +1,5 @@
 {
-  "name": "@hsmos-ui/icons-vue",
+  "name": "hsmos-ui-icons-vue",
   "version": "2.1.0",
   "description": "Vue components of Element Plus Icons collection.",
   "type": "module",
