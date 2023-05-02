@@ -1,6 +1,6 @@
 {
   "name": "@hsmos-ui/icons-vue",
-  "version": "2.1.0",
+  "version": "2.0.9",
   "author": "cageek",
   "description": "Vue components of Hsmos UI Icons collection.",
   "type": "module",

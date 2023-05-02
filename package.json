@@ -1,6 +1,6 @@
 {
   "name": "@hsmos-ui/icons-monorepo",
-  "version": "2.1.1",
+  "version": "2.0.9",
   "private": true,
   "packageManager": "pnpm@7.13.2",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "cz": "czg",
     "dev": "pnpm run -C playground dev",
     "build": "pnpm run -C ./packages/vue build",
+    "version:patch": "pnpm version patch && pnpm version patch --prefix packages/vue",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "format": "prettier --write . && pnpm run -C ./packages/svg optimize",
