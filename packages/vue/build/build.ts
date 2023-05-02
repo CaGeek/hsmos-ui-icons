@@ -4,11 +4,10 @@ import chalk from 'chalk'
 import { build } from 'esbuild'
 import GlobalsPlugin from 'esbuild-plugin-globals'
 import vue from 'unplugin-vue/esbuild'
-import { emptyDir } from 'fs-extra'
+import { emptyDir,copy } from 'fs-extra'
 import { version } from '../package.json'
 import { pathOutput, pathSrc } from './paths'
 import type { BuildOptions, Format } from 'esbuild'
-
 const buildBundle = () => {
   const getBuildOptions = (format: Format) => {
     const options: BuildOptions = {
@@ -72,4 +71,6 @@ const buildBundle = () => {
 consola.info(chalk.blue('cleaning dist...'))
 await emptyDir(pathOutput)
 consola.info(chalk.blue('building...'))
+await copy('README.md', path.join(pathOutput, 'README.md'))
+consola.info(chalk.blue('copying README.md...'))
 await buildBundle()

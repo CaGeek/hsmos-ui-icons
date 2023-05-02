@@ -21,8 +21,7 @@
     "directory": "packages/vue"
   },
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
