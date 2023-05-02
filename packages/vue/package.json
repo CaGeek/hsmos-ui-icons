@@ -1,6 +1,6 @@
 {
   "name": "@hsmos-ui/icons-vue",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "author": "cageek",
   "description": "Vue components of Hsmos UI Icons collection.",
   "type": "module",
@@ -23,7 +23,7 @@
   "files": [
     "dist"
   ],
-  "readme": "README.md",
+  "readme": "./dist/README.md",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
