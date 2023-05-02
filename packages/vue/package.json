@@ -2,13 +2,13 @@
   "name": "@hsmos-ui/icons-vue",
   "version": "2.1.1",
   "author": "cageek",
-  "description": "Vue components of Element Plus Icons collection.",
+  "description": "Vue components of Hsmos UI Icons collection.",
   "type": "module",
   "keywords": [
     "icon",
     "svg",
     "vue",
-    "element-plus"
+    "hsmos-ui"
   ],
   "license": "MIT",
   "homepage": "https://element-plus.org/",
